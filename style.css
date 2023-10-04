@@ -36,3 +36,27 @@ nav {
   padding: 0 30px;
   line-height: 70px;
 }
+
+.main-visual {
+  width: 100%;
+  height: 650px;
+  background-image: url("img 2/mv.png");
+  background-size: cover;
+  background-position: top;
+}
+
+.main-visual-content {
+  padding-top: 200px;
+  text-align: center;
+}
+
+.main-visual-text {
+  color: #FAFAFA;
+  font-size: 64px;
+}
+
+.main-visual-text2 {
+  color: #FAFAFA;
+  font-size: 20px;
+  margin-top: 10px;
+}
