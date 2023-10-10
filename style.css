@@ -62,15 +62,16 @@ nav {
 }
 
 main {
-  background-color: #ECEFF1;
-  display: flex;
+
+  /*display: flex;*/
   justify-content: center;
   /*margin: 0 auto;*/
 }
 
 .portfolio {
-  width: 920px;
+  /*width: 920px;*/
   text-align: center;
+  background-color: #ECEFF1;
 }
 
 .portfolio-title {
@@ -98,14 +99,18 @@ main {
 }
 
 .portfolio-content {
+  margin: 0 auto;
   display:flex;
   flex-wrap:wrap;
-  margin-bottom: 90px;
+  /*margin-bottom: 90px;*/
+  width: 920px;
+  padding-bottom:90px;
 }
 
 .portfolio-image {
   width: 300px;
   height: 250px;
+
 
 }
 
@@ -144,4 +149,68 @@ main {
 .portfolio-image:nth-child(6) {
   background-image: url("img 2/webcamp-mother.png");
   background-size: cover;
+}
+
+.Feature {
+  /*width: 980px;*/
+  text-align: center;
+}
+
+.feature-title {
+  font-size: 32px;
+  color:#000000;
+  padding-top: 90px;
+  position: relative;
+}
+
+.feature-title::after {
+  content: ' ';
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  transform: translateX(-50%);
+}
+
+.feature-text {
+  padding: 30px 0;
+}
+
+.feature-content {
+  display:flex;
+  justify-content: center;
+  width: 980px;
+  margin: 0 auto;
+  padding-bottom: 90px;
+}
+
+.feature-box {
+  width: 320px;
+}
+
+.feature-box:nth-child(1) {
+  margin-right:10px;
+}
+
+.feature-box:nth-child(2) {
+  margin-right:10px;
+}
+
+.strength {
+  font-size: 20px;
+  color: #000000;
+  padding: 10px 0;
+}
+
+.box-text {
+  text-align: left;
+  font-size: 16px;
+  color: #000000;
+}
+
+.social {
+  font-size: 60px;
 }
