@@ -60,3 +60,88 @@ nav {
   font-size: 20px;
   margin-top: 10px;
 }
+
+main {
+  background-color: #ECEFF1;
+  display: flex;
+  justify-content: center;
+  /*margin: 0 auto;*/
+}
+
+.portfolio {
+  width: 920px;
+  text-align: center;
+}
+
+.portfolio-title {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  position: relative;
+}
+
+.portfolio-title::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  /*-webkit-transform: translateX(-50%);*/
+  transform: translateX(-50%);
+}
+
+.portfolio-text {
+  padding: 30px 0;
+}
+
+.portfolio-content {
+  display:flex;
+  flex-wrap:wrap;
+  margin-bottom: 90px;
+}
+
+.portfolio-image {
+  width: 300px;
+  height: 250px;
+
+}
+
+.portfolio-image:nth-child(1) {
+  background-image: url("img 2/sketch.jpg");
+  background-size: cover;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+.portfolio-image:nth-child(2) {
+  background-image: url("img 2/websuku.png");
+  background-size: cover;
+  margin-bottom:10px;
+  margin-right: 10px;
+}
+
+.portfolio-image:nth-child(3) {
+  background-image: url("img 2/write.jpg");
+  background-size: cover;
+  margin-bottom:10px;
+}
+
+.portfolio-image:nth-child(4) {
+  background-image: url("img 2/webcamp.png");
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.portfolio-image:nth-child(5) {
+  background-image: url("img 2/talk.jpg");
+  background-size: cover;
+  margin-right: 10px;
+}
+
+.portfolio-image:nth-child(6) {
+  background-image: url("img 2/webcamp-mother.png");
+  background-size: cover;
+}
