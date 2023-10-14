@@ -214,3 +214,82 @@ main {
 .social {
   font-size: 60px;
 }
+
+.Profile {
+  text-align: center;
+  background-color: #ECEFF1;
+}
+
+.profile-title {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  position: relative;
+}
+
+.profile-title::after {
+  content: ' ';
+  position: absolute;
+  left: 50%;
+  bottom: -8px;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  transform: translateX(-50%);
+}
+
+.profile-text {
+  padding: 30px 0;
+}
+
+.profile-content {
+  display: flex;
+  justify-content: center;
+  width: 1024px;
+  padding-bottom: 90px;
+  text-align: center;
+  margin: 0 auto;
+  /*position: relative;*/
+}
+
+.profile-image {
+  width:512px;
+  margin: 0 auto;
+ 
+}
+
+.image2 {
+  border-radius:50%;
+  
+}
+
+.profile-image-text {
+  margin: 0 auto;
+  text-align: left;
+  width: 512px;
+  /*position: absolute;*/
+  /*left: 0;*/
+  /*top: 0;*/
+}
+
+.myname {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.myname-text {
+  font-size: 16px;
+  color:#000000;
+  padding-bottom: 20px;
+}
+
+.myskills {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+.myskills-text {
+  font-size: 16px;
+  color:#000000;
+}
