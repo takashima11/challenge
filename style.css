@@ -35,6 +35,7 @@ nav {
   color: #FAFAFA;
   padding: 0 30px;
   line-height: 70px;
+  
 }
 
 .main-visual {
@@ -220,6 +221,10 @@ main {
   background-color: #ECEFF1;
 }
 
+.profile-container {
+  width: 1024px;
+}
+
 .profile-title {
   font-size: 32px;
   color: #000000;
@@ -243,6 +248,7 @@ main {
   padding: 30px 0;
 }
 
+/*配置未完成*/
 .profile-content {
   display: flex;
   justify-content: center;
@@ -256,12 +262,12 @@ main {
 .profile-image {
   width:512px;
   margin: 0 auto;
- 
+
 }
 
 .image2 {
   border-radius:50%;
-  
+
 }
 
 .profile-image-text {
@@ -293,3 +299,82 @@ main {
   font-size: 16px;
   color:#000000;
 }
+
+.Contact {
+  text-align: center;
+
+}
+
+.Contact-container {
+  width: 800px;
+
+  margin: 0 auto;
+}
+
+.contact-title {
+  font-size: 32px;
+  color: #000000;
+  padding-top: 90px;
+  position: relative;
+}
+
+.contact-title::after {
+  content: ' ';
+  position: absolute;
+  left:50%;
+  bottom: -8px;
+  display: inline-block;
+  width: 70px;
+  height: 3px;
+  background-color: #EC715F;
+  transform: translateX(-50%);
+}
+
+.contact-text {
+  padding: 30px 0;
+}
+
+.contact-content {
+  display:flex;
+  justify-content: center;
+  padding-bottom: 90px;
+}
+
+.contact-left {
+  width: 50%;
+  /*text-align: left;*/
+
+}
+
+.left-text:nth-child(odd) {
+  font-size: 20px;
+  padding-bottom: 5px;
+}
+
+/*間隔未完成*/
+/*.left-text:nth-child(2) {*/
+/*  padding-bottom: 20px;*/
+/*}*/
+
+.contact-right {
+  /*width: 50%;*/
+  margin: 0 auto;
+  text-align:center;
+}
+
+.right-box {
+  text-align: left;
+}
+
+.right-text {
+  font-size: 20px;
+  padding-bottom: 5px;
+  text-align:left;
+  margin: 0 auto;
+}
+
+.contact-icon {
+  font-size: 50px;
+  text-align:left;
+}
+
