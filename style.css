@@ -35,7 +35,7 @@ nav {
   color: #FAFAFA;
   padding: 0 30px;
   line-height: 70px;
-  
+
 }
 
 .main-visual {
@@ -378,3 +378,16 @@ main {
   text-align:left;
 }
 
+footer {
+  height: 60px;
+  background-color: #EC715F;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  font-size: 16px;
+  color: #FAFAFA;
+  /*text-align: center;*/
+}
