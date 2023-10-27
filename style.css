@@ -459,6 +459,16 @@ footer {
 
   .main-visual {
     width: 90%;
+    background-image:url("img 2/code.png");
+    height:650px;
+  }
+
+  .main-visual-text {
+    font-size:40px;
+  }
+
+  .main-visual-text2 {
+    font-size:18px;
   }
 
   main {
